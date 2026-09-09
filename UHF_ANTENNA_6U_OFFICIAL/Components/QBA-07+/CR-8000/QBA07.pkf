@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "QBA07"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "QBA07")
+        (spec "default")
+    )
+)

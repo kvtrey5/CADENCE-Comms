@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QBA-07+
+D Power Splitter/Combiner, 2 Way-90 50 340 to 680 MHz-1
+K
+F https://www.minicircuits.com/pdfs/QBA-07.pdf
+$ENDCMP
+#
+#End Doc Library

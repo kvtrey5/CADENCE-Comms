@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'QBA_07_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "QBA-07+" (!) = "", "QBA07", "Other", "", "", "Power Splitter/Combiner, 2 Way-90 50 340 to 680 MHz-1", "https://www.minicircuits.com/pdfs/QBA-07.pdf", "1.78 mm"
+END_PART
+
+END.
