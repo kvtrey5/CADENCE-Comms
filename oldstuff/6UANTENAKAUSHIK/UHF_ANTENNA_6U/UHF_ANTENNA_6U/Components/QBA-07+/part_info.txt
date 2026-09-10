@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=QBA-07+
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=10
+Version=1.1
+Released=2021-11-20 07:39:11
+Downloaded=2026-09-05 21:36:43
+3D=Y

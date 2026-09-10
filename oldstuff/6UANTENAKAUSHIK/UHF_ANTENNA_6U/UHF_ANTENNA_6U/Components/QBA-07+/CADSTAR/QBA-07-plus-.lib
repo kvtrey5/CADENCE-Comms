@@ -1,0 +1,16 @@
+.QBA-07-plus- :1 ;Power Splitter/Combiner, 2 Way-90 50 340 to 680 MHz-1
+QBA07
+*STM IC
+*NGS
+*PLB 1="SUM PORT" 2="GROUND_1" 3="GROUND_2" 4="GROUND_3" 5="50 OHM TERM EXTERNAL" 6="PORT 2 (0°)" 7="GROUND_4" 8="GROUND_5" 9="GROUND_6" 10="PORT 1 (+90°)"
+*MXP 10
+*DFN QBA-07-plus-
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (QBA-07+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/QBA-07.pdf)
+~!Height (1.78mm)
+~!3D_Model (QBA-07+)
+QBA-07-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

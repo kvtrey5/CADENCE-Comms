@@ -1,0 +1,156 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "QBA-07+"
+   (description "Power Splitter/Combiner, 2 Way-90 50 340 to 680 MHz-1")
+   (family "ANA")
+   (package "QBA07")
+   (attribute "Datasheet Link" "https://www.minicircuits.com/pdfs/QBA-07.pdf")
+   (attribute "Geometry.Height" "1.78mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Mini-Circuits")
+   (attribute "Manufacturer_Part_Number" "QBA-07+")
+   (gate
+    (symbol "QBA-07+")
+    (pin "SUM_PORT" 1 PS)
+    (pin "GROUND_1" 2 PS)
+    (pin "GROUND_2" 3 PS)
+    (pin "GROUND_3" 4 PS)
+    (pin "50_OHM_TERM_EXTERNAL" 5 PS)
+    (pin "PORT_2_(0°)" 6 PS)
+    (pin "GROUND_4" 7 PS)
+    (pin "GROUND_5" 8 PS)
+    (pin "GROUND_6" 9 PS)
+    (pin "PORT_1_(+90°)" 10 PS)
+   )
+  )
+  (symbol "QBA-07+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 2200 100) (pt 2200 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "QBA07"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.81 3.175)
+      (pt 3.81 3.175)
+      (pt 3.81 -3.175)
+      (pt -3.81 -3.175)
+      (pt -3.81 3.175))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.81 5.19)
+      (pt 4.81 5.19)
+      (pt 4.81 -5.19)
+      (pt -4.81 -5.19)
+      (pt -4.81 5.19))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.81 3.175)
+      (pt -3.81 -3.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.81 2.985)
+      (pt 3.81 -3.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.6 -4.6)
+      (arc (pt -2.600 -4.600) (pt -2.650 -4.700) (pt -2.550 -4.600) (start 180.0) (sweep 90.0))
+      (pt -2.6 -4.7)
+      (arc (pt -2.600 -4.700) (pt -2.650 -4.700) (pt -2.550 -4.600) (start 180.0) (sweep -90.0))
+      (pt -2.6 -4.6))))
+   (leg 1 (pt -2.540 -2.985) (padstack 0))
+   (leg 2 (pt -1.270 -2.985) (padstack 0))
+   (leg 3 (pt 0.000 -2.985) (padstack 0))
+   (leg 4 (pt 1.270 -2.985) (padstack 0))
+   (leg 5 (pt 2.540 -2.985) (padstack 0))
+   (leg 6 (pt 2.540 2.985) (padstack 0))
+   (leg 7 (pt 1.270 2.985) (padstack 0))
+   (leg 8 (pt 0.000 2.985) (padstack 0))
+   (leg 9 (pt -1.270 2.985) (padstack 0))
+   (leg 10 (pt -2.540 2.985) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.760 2.410 0 0 90.000))
+   )
+   (model "QBA-07+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
