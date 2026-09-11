@@ -541,7 +541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical"
+		(property "Footprint" "Connector_Coaxial:WR-MMCX_Wuerth_66012102111404_Vertical"
 			(at 143.51 95.25 0)
 			(hide yes)
 			(show_name no)
