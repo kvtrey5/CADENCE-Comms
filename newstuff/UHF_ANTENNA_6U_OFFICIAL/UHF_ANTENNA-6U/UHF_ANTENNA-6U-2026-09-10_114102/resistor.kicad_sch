@@ -1180,7 +1180,7 @@
 	)
 	(symbol
 		(lib_id "plusz-end-card-with-turnstile-eagle-import:PAC100-FOR-MELTWIRE")
-		(at 153.67 90.17 90)
+		(at 153.67 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1190,7 +1190,7 @@
 		(dnp no)
 		(uuid "144fed3f-6b64-4fa2-bf8d-ad18f0522c87")
 		(property "Reference" "R5"
-			(at 152.1714 93.98 0)
+			(at 155.1686 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1201,7 +1201,7 @@
 			)
 		)
 		(property "Value" "7.5  1W"
-			(at 156.972 95.25 0)
+			(at 150.368 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1212,7 +1212,7 @@
 			)
 		)
 		(property "Footprint" "PAC:PAC01_VIS"
-			(at 146.558 89.154 0)
+			(at 160.782 91.186 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1450,7 +1450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XH-2A:JST_B2B-XH-A"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00276_1x02_P5.00mm_Vertical"
 			(at 153.67 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1932,7 +1932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00276_1x02_P5.00mm_Vertical"
 			(at 110.49 125.73 0)
 			(hide yes)
 			(show_name no)

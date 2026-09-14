@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3d47e3ea-60d5-41c5-b021-a5e3af8316b2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 86.36 30.734)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6fb2763d-f6e6-4d71-bf60-0aefca6866d2")
+		(property "Sheetname" "UHF"
+			(at 86.36 30.0224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UHF.kicad_sch"
+			(at 86.36 35.1286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.068 30.226)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76cd6a02-10ed-47a9-8360-90e061540eab")
+		(property "Sheetname" "Power Transfer"
+			(at 36.068 29.5144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerTransfer.kicad_sch"
+			(at 36.068 34.6206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.382 29.972)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ea6ee360-75ca-4a2d-99f9-d70ec87def40")
+		(property "Sheetname" "BurnWire"
+			(at 135.382 29.2604 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resistor.kicad_sch"
+			(at 135.382 34.3666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

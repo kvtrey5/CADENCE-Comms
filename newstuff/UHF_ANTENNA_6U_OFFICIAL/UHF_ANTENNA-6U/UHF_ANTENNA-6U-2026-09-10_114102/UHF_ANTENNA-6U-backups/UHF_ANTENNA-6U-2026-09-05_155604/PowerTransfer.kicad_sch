@@ -718,164 +718,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1725,7 +1567,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Q_PMOS_DGS_1"
+		(symbol "Transistor_FET:Q_PMOS_DGS"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1735,27 +1577,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q28"
-				(at 8.89 0 90)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Q_PMOS_DGS"
-				(at 6.35 0 90)
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" ""
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1799,7 +1643,7 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_1_0_1"
+			(symbol "Q_PMOS_DGS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1966,11 +1810,11 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_1_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "Q_PMOS_DGS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "G"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1985,10 +1829,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2004,9 +1848,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2024,7 +1868,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Q_PMOS_DGS_2"
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2034,8 +1882,19 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q27"
-				(at 8.89 0 90)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2044,18 +1903,8 @@
 					)
 				)
 			)
-			(property "Value" "Q_PMOS_DGS"
-				(at 6.35 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 2.54 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2076,7 +1925,7 @@
 					)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2087,7 +1936,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2098,22 +1947,10 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_2_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2125,19 +1962,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2149,112 +1974,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2265,11 +1985,11 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_2_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2277,42 +1997,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2505,6 +2189,12 @@
 		(uuid "4ea5718b-1ed1-4988-8a79-91ce1408efa6")
 	)
 	(junction
+		(at 148.59 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62fa2067-3614-4813-9d4e-1c1b4d122355")
+	)
+	(junction
 		(at 163.83 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2527,12 +2217,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5d3804d-d5c8-47a1-bcdf-b11873fc4e57")
-	)
-	(junction
-		(at 148.59 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6354e65-dc63-474a-b200-b51d3356fdb4")
 	)
 	(junction
 		(at 158.75 59.69)
@@ -2636,16 +2320,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 55.88) (xy 194.31 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2713958b-5bf9-4a60-a22a-339404c09665")
-	)
-	(wire
-		(pts
 			(xy 158.75 59.69) (xy 166.37 59.69)
 		)
 		(stroke
@@ -2686,16 +2360,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 90.17) (xy 219.71 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39a5c9c1-6229-434c-acbd-be1aa38854e2")
-	)
-	(wire
-		(pts
 			(xy 153.67 59.69) (xy 158.75 59.69)
 		)
 		(stroke
@@ -2733,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "4611e457-07f9-407f-b9d6-44bece4ce930")
+	)
+	(wire
+		(pts
+			(xy 148.59 67.31) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "505f87b8-122a-4ebf-b895-f3761daf7b47")
 	)
 	(wire
 		(pts
@@ -2826,16 +2500,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 55.88) (xy 194.31 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "793af1f5-479b-4d9a-836b-7669a319a6d0")
-	)
-	(wire
-		(pts
 			(xy 209.55 86.36) (xy 220.98 86.36)
 		)
 		(stroke
@@ -2843,16 +2507,6 @@
 			(type default)
 		)
 		(uuid "7aa6459c-946c-4f02-adcb-f40d1961ad8f")
-	)
-	(wire
-		(pts
-			(xy 148.59 67.31) (xy 158.75 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c601ac-e21c-4d57-8223-28529350117c")
 	)
 	(wire
 		(pts
@@ -2903,16 +2557,6 @@
 			(type default)
 		)
 		(uuid "8aca3412-ba38-4654-863b-f60b49e98bee")
-	)
-	(wire
-		(pts
-			(xy 222.25 88.9) (xy 222.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6c8d18-8185-4ed4-ace7-0f7bdf85a6c7")
 	)
 	(wire
 		(pts
@@ -2994,40 +2638,6 @@
 		)
 		(uuid "eb62defb-e476-457f-a12b-bbc071a849e2")
 	)
-	(wire
-		(pts
-			(xy 222.25 90.17) (xy 219.71 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa57348-3876-4772-aad3-285882c6f560")
-	)
-	(global_label "VDDD"
-		(shape output)
-		(at 222.25 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0053643d-8aa5-41c4-8d6d-b8d2f262e77c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.1338 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CC2"
 		(shape input)
 		(at 119.38 104.14 0)
@@ -3101,7 +2711,7 @@
 		)
 	)
 	(global_label "VDC_OUT"
-		(shape output)
+		(shape input)
 		(at 166.37 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3149,7 +2759,7 @@
 		)
 	)
 	(global_label "CC2"
-		(shape output)
+		(shape input)
 		(at 171.45 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3173,7 +2783,7 @@
 		)
 	)
 	(global_label "VBUS_EN"
-		(shape output)
+		(shape input)
 		(at 207.01 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3221,7 +2831,7 @@
 		)
 	)
 	(global_label "VDDD"
-		(shape output)
+		(shape input)
 		(at 194.31 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3245,7 +2855,7 @@
 		)
 	)
 	(global_label "CC1"
-		(shape output)
+		(shape input)
 		(at 171.45 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3257,30 +2867,6 @@
 		(uuid "9af9db86-ef4b-48cf-b783-c3b3742a397f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.7153 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VDC_OUT"
-		(shape input)
-		(at 196.85 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aae9c6c4-7dd9-46ad-92af-e1994df8ec3c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.64 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3549,6 +3135,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_DGS")
+		(at 148.59 62.23 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d96ae12-5ef0-4c81-b9d7-5fd6a26c302f")
+		(property "Reference" "Q28"
+			(at 148.59 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_PMOS_DGS"
+			(at 148.59 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 151.13 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(at 148.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fc776149-bdc8-4a58-91b1-790635dc6e1c")
+		)
+		(pin "2"
+			(uuid "ef6cdfde-d759-46a6-a89d-b88d90c2c2b5")
+		)
+		(pin "1"
+			(uuid "c33e34ed-388a-4c24-bd09-72887d15b704")
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/76cd6a02-10ed-47a9-8360-90e061540eab"
+					(reference "Q28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 138.43 71.12 0)
 		(unit 1)
@@ -3625,90 +3294,6 @@
 			(project "UHF_ANTENNA-6U"
 				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/76cd6a02-10ed-47a9-8360-90e061540eab"
 					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Q_PMOS_DGS_1")
-		(lib_id "Transistor_FET:Q_PMOS_DGS")
-		(at 148.59 62.23 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d2d88d4-f434-4177-a0c3-c8de240b90bb")
-		(property "Reference" "Q28"
-			(at 148.59 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_PMOS_DGS"
-			(at 148.59 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 151.13 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/gate/source"
-			(at 148.59 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4d4cef7e-ff30-4718-b570-0eadc81d53a3")
-		)
-		(pin "2"
-			(uuid "eca6a466-8bb3-42e5-b0f0-42ca94ccf53e")
-		)
-		(pin "1"
-			(uuid "4b19ccc2-084f-4467-9d8a-42674aa647bd")
-		)
-		(instances
-			(project "UHF_ANTENNA-6U"
-				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/76cd6a02-10ed-47a9-8360-90e061540eab"
-					(reference "Q28")
 					(unit 1)
 				)
 			)
@@ -3955,88 +3540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 201.93 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44a05970-ec2b-47b9-b5e7-cf71cf3bd38c")
-		(property "Reference" "J2"
-			(at 204.47 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 204.47 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00276_1x02_P5.00mm_Vertical"
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 201.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bdf8e919-fc0b-4be5-bc91-1ef58fbb50c9")
-		)
-		(pin "1"
-			(uuid "afff8df8-d4c6-4aca-95b5-0fac53120839")
-		)
-		(instances
-			(project "UHF_ANTENNA-6U"
-				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/76cd6a02-10ed-47a9-8360-90e061540eab"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 209.55 82.55 0)
 		(unit 1)
@@ -4149,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 107.95 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4243,85 +3746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 194.31 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51c5f23f-a53b-4b8d-bcaa-44a5b9afbe1d")
-		(property "Reference" "#PWR0111"
-			(at 194.31 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSS"
-			(at 193.04 63.246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f261ec7a-d24f-43ce-8a97-a3355c0e9a1c")
-		)
-		(instances
-			(project "UHF_ANTENNA-6U"
-				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/76cd6a02-10ed-47a9-8360-90e061540eab"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Q_PMOS_DGS_2")
 		(lib_id "Transistor_FET:Q_PMOS_DGS")
 		(at 132.08 62.23 90)
 		(unit 1)
@@ -5677,6 +5101,83 @@
 			(project "UHF_ANTENNA-6U"
 				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/76cd6a02-10ed-47a9-8360-90e061540eab"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 219.71 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f829d66b-50da-4b18-9643-e19445337763")
+		(property "Reference" "#PWR0101"
+			(at 219.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 215.9 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 219.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36012118-11f4-46b4-bee0-7e98dee579bb")
+		)
+		(instances
+			(project "UHF_ANTENNA-6U"
+				(path "/3d47e3ea-60d5-41c5-b021-a5e3af8316b2/76cd6a02-10ed-47a9-8360-90e061540eab"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
