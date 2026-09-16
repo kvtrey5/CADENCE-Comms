@@ -1,0 +1,98 @@
+(footprint "SolderWirePad_1x01_SMD_5x10mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  5mm x 10mm")
+	(tags "MeasurementPoint Square SMDPad 5mmx10mm ")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "ff3f8f2f-4f42-457d-9112-c445be51f0ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderWirePad_1x01_SMD_5x10mm"
+		(at 0 6.35 0)
+		(layer "F.Fab")
+		(uuid "647b0117-c243-4d5c-aabf-9cd9bc4160bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9af16896-e82b-458e-b0c0-758f21eb963f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "276f5939-f3f6-4c12-8511-6c3412c11a02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.65 -5.15)
+		(end 2.65 5.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "569c3526-5714-4526-bf42-d2b053bef528")
+	)
+	(fp_rect
+		(start -2.75 -5.25)
+		(end 2.75 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "24d76392-b043-41a8-be33-081686b3c426")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d681b887-4900-4850-810f-eaa9f405cc02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0 90)
+		(size 12 6.4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "16c66774-5578-4974-bec7-b62de23e8b3d")
+	)
+	(embedded_fonts no)
+)
